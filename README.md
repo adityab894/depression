@@ -4,7 +4,6 @@ This repository contains a web application that uses Vite for the front end and 
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
