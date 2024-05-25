@@ -32,76 +32,25 @@ This repository contains a web application that uses Vite for the front end and 
 
 3. **Build the front end:**
    ```sh
-   npm run build
+   npm run
+   npm run dev
    ```
 
 ### Back End (Flask)
 
+Split the terminal in code editor or opne new terminal without closing the previous one...
 1. **Navigate to the backend directory:**
    ```sh
-   cd ../backend
+   cd server
    ```
 
-2. **Create a virtual environment:**
-   ```sh
-   python -m venv venv
-   ```
-
-3. **Activate the virtual environment:**
-   - On Windows:
-     ```sh
-     venv\Scripts\activate
-     ```
-   - On MacOS/Linux:
-     ```sh
-     source venv/bin/activate
-     ```
-
-4. **Install dependencies:**
+2. **Install dependencies:**
    ```sh
    pip install -r requirements.txt
+   or
+   python package_installer.py // file is there which has all the requirements.....
    ```
 
-5. **Set the Flask environment variable:**
-   - On Windows:
-     ```sh
-     set FLASK_APP=app
-     ```
-   - On MacOS/Linux:
-     ```sh
-     export FLASK_APP=app
-     ```
-
-## Usage
-
-### Running the Application
-
-1. **Start the Flask back end:**
-   ```sh
-   flask run
-   ```
-
-2. **Serve the front end:**
-   ```sh
-   cd ../frontend
-   npm run dev
-   ```
-
-### Building for Production
-
-To build the application for production, run the following commands:
-
-1. **Build the front end:**
-   ```sh
-   cd frontend
-   npm run build
-   ```
-
-2. **Run the Flask server in production mode:**
-   ```sh
-   cd ../backend
-   flask run --host=0.0.0.0 --port=8000
-   ```
 
 ## Project Structure
 
