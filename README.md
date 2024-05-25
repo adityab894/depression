@@ -21,8 +21,8 @@ This repository contains a web application that uses Vite for the front end and 
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/vite-flask-app.git
-   cd vite-flask-app/frontend
+   git clone https://github.com/adityab894/depression.git
+   cd Mindfulmoments
    ```
 
 2. **Install dependencies:**
